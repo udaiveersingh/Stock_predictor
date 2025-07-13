@@ -1,0 +1,17 @@
+# Ignore all files inside processed/, except .gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore models and pickles
+models/
+*.pkl
+
+# Python cache and logs
+__pycache__/
+*.log
+*.pyc
+
+# Jupyter/VSCode artifacts
+.ipynb_checkpoints/
+.vscode/
+.env

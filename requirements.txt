@@ -1,0 +1,9 @@
+pandas
+yfinance
+pandas_ta
+xgboost
+scikit-learn
+joblib
+fastapi
+uvicorn
+python-dotenv
