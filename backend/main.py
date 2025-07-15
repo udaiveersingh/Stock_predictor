@@ -9,7 +9,7 @@ from predictor import predict
 logging.basicConfig(level=logging.INFO)
 
 # Define where your CSV data is
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "processed")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data", "processed")
 
 app = FastAPI()
 

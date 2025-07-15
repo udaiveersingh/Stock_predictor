@@ -1,5 +1,6 @@
 # Ignore all files inside processed/, except .gitkeep
 data/processed/*
+data/processed/*.csv
 !data/processed/.gitkeep
 
 # Ignore models and pickles
