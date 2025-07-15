@@ -2,9 +2,12 @@
 data/processed/*
 !backend/data/processed/AAPL.csv
 
-# Ignore models and pickles
-models/
-*.pkl
+# Ignore top-level models directory
+/models/
+
+# Don't ignore model files inside backend
+!backend/models/
+!backend/models/*.pkl
 
 # Python cache and logs
 __pycache__/
