@@ -1,7 +1,6 @@
-# Ignore all files inside processed/, except .gitkeep
+# Ignore all files inside processed/, except AAPL.csv
 data/processed/*
-data/processed/*.csv
-!data/processed/.gitkeep
+!backend/data/processed/AAPL.csv
 
 # Ignore models and pickles
 models/
