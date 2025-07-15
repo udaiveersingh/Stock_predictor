@@ -8,8 +8,8 @@ from sklearn.metrics import mean_squared_error
 from joblib import dump
 from typing import List
 
-DATA_DIR = r"C:\Users\LENOVO\OneDrive\Documents\End-End Stock Prediction\Stock_predictor\data\processed"
-MODEL_DIR = r"C:\Users\LENOVO\OneDrive\Documents\End-End Stock Prediction\Stock_predictor\models"
+DATA_DIR = r"C:\Users\LENOVO\OneDrive\Documents\End-End Stock Prediction\Stock_predictor\backend\data\processed"
+MODEL_DIR = r"C:\Users\LENOVO\OneDrive\Documents\End-End Stock Prediction\Stock_predictor\backend\models"
 HORIZONS = [1, 5, 10]  # Forecast 1, 5, and 10 days ahead
 
 def create_targets(df: pd.DataFrame, target_col=None, horizons=HORIZONS):
